@@ -19,7 +19,7 @@ def create_placeholders(n_x, n_y):
 
     return X, Y
 
-# Function that will convert the labels column/row vector into a matrix with a 1 in the corresponding class.
+# Function that will convert the labels column/row vector into a matrix with a 1 in the corresponding class row.
 def one_hot_matrix(labels, C):
 
 	# creating a tf.constant equal to C (number of classes, depth of matrix)
